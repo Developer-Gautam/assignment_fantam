@@ -1,0 +1,59 @@
+
+.main {
+    width: 80%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.topSection {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topSection img {
+  width: 40px;
+  height: 40px;
+}
+
+.topSection > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+
+.value{
+    width: 90%;
+    margin: auto;
+}
+
+.value div{
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.value div p{
+    background-color: rgb(255, 25, 101);
+    padding: 4px 10px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.arrowDiv{
+    display: flex;
+}
+
+.downArrow{
+    width: 40px;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+}

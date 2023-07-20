@@ -1,0 +1,19 @@
+.bottomSection{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.bottomSection .image{
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 40px 50px;
+    border-radius: 15px;
+}
+
+.bottomSection img{
+    width: 90px;
+}
